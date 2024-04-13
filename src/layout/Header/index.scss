@@ -2,7 +2,7 @@ header {
     width:100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-weight: bold;
     box-sizing: border-box;
@@ -11,7 +11,20 @@ header {
     position: fixed;
     top: 0;
     z-index: 100;
-    min-height: var(--header-min-height);
+    min-height: var(--site-min-height);
+    padding: 0 20px;
+    .logo {
+        height: calc(var(--site-min-height) - 20px);
+    }
+    .menu {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        li a {
+            font-family: var(--font-title) !important;
+            font-size: 18px;
+        }
+    }
     @media screen and (max-width: 1024px) {
         align-items: center;
         justify-content: space-between;

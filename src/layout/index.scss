@@ -55,6 +55,61 @@ table {
  * END RESET CSS
  */
 
+ a {
+	 color: var(--color-primary);
+	 text-decoration: none;
+	 font-weight: bold;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+	 font-family: var(--font-title);
+ }
+ 
+ h1 {
+	 font-size: 3em;
+ }
+ 
+ h2 {
+	 font-size: 2.4em;
+ }
+ 
+ h3 {
+	 font-size: 2em;
+ }
+ 
+ h4 {
+	 font-size: 1.6em;
+ }
+ 
+ h5 {
+	 font-size: 1.4em;
+ }
+ 
+ h6 {
+	 font-size: 1.2em;
+ }
+ 
+ a, p {
+	 font-family: var(--font-text);
+ }
+
+ /*
+  * LAYOUT CSS
+ */
+
 main {
-    margin-top: var(--header-min-height);
+	margin: auto;
+    margin-top: var(--site-min-height);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 20px;
 }
+
+section {
+	width: 100%;
+	&.contain {
+		max-width: var(--site-max-width);
+	}
+}
+

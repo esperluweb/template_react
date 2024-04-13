@@ -2,9 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {
   RouterProvider,
-  createBrowserRouter
+  createBrowserRouter,
 } from "react-router-dom";
-import "./scss/variables.scss"
 
 import { routesArray } from "./data/routes/front";
 const router = createBrowserRouter(routesArray);

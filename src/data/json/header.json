@@ -1,0 +1,21 @@
+{
+    "logo": "https://esperluweb.com/wp-content/uploads/2023/01/logo-long-site.png",
+    "menu": [
+        {
+            "text": "Accueil",
+            "link": "/"
+        },
+        {
+            "text": "Services",
+            "link": "/services"
+        },
+        {
+            "text": "Portfolio",
+            "link": "/portfolio"
+        },
+        {
+            "text": "Contact",
+            "link": "/contact"
+        }
+    ]
+}

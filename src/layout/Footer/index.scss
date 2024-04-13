@@ -2,10 +2,11 @@ footer {
     z-index: 100;
     width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: var(--color-primary);
     color: black;
     box-sizing: border-box;
     box-shadow: 0px -2px 18px 0px rgba(0,0,0,0.3);
@@ -14,6 +15,25 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .footer-menu {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        margin-bottom: 20px;
+        li {
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            padding: 8px;
+            border-radius: 50%;
+            border: 2px solid var(--color-secondary);
+            color: var(--color-secondary);
+            font-size: 20px;
+        }
+    }
+    p, a {
+        color: var(--color-secondary);
     }
 }
 

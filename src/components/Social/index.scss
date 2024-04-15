@@ -1,0 +1,16 @@
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-bottom: 20px;
+    li {
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        padding: 8px;
+        border-radius: 50%;
+        border: 2px solid var(--color-secondary);
+        color: var(--color-secondary);
+        font-size: 20px;
+    }
+}

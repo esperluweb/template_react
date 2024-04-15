@@ -1,6 +1,6 @@
 import Layout from "../../layout/Layout";
 
-import Hero from "../../components/Hero";
+import Home from "../../pages/Home";
 
 export const routesArray = [
     {
@@ -8,8 +8,8 @@ export const routesArray = [
         element: <Layout/>,
         children: [
             {
-            path: "/",
-            element: <Hero/>,
+                path: "/",
+                element: <Home/>,
             }
         ]
     },

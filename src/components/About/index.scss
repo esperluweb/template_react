@@ -1,0 +1,19 @@
+.about {
+    box-sizing: border-box;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 60px 20px;
+    p {
+        width: var(--site-max-width);
+        line-height: 2em;
+        text-align: center;
+    }
+    a {
+        color: var(--color-secondary);
+    }
+}

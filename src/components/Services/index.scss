@@ -1,0 +1,29 @@
+.services {
+    box-sizing: border-box;
+    background-color: var(--color-secondary);
+    // color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 60px 20px;
+    p {
+        width: var(--site-max-width);
+        line-height: 2em;
+        text-align: center;
+    }
+    a {
+        color: var(--color-primary);
+    }
+    .myservices {
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        gap: 20px;
+        width: var(--site-max-width);
+        p {
+            width:100%;
+        }
+    }
+}

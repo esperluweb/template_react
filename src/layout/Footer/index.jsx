@@ -1,15 +1,12 @@
 import { Link } from "react-router-dom";
-import "./index.scss"
-import footer from "./../../data/json/footer.json";
+import "./index.scss";
+
+import Social from "../../components/Social";
 
 export default function Footer() {
   return (
       <footer>
-        <ul className="footer-menu">
-          <li><Link to={footer.facebook}><i className="fa-brands fa-facebook-f"></i></Link></li>
-          <li><Link to={footer.instagram}><i className="fa-brands fa-instagram"></i></Link></li>
-          <li><Link to={footer.linkedin}><i className="fa-brands fa-linkedin"></i></Link></li>
-        </ul>
+        <Social/>
         <p>Développé par <Link to="https://esperluweb.com">EsperluWeb</Link></p>
       </footer>
     );

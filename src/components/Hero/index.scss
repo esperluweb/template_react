@@ -4,11 +4,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 40px;
     align-items: center;
     @media only screen and (max-width : 768px) {
         flex-direction: column;
         height: auto;
         gap: 40px;
-        padding: 40px;
     }
 }

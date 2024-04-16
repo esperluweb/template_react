@@ -1,5 +1,7 @@
 import "./index.scss";
 
+import PropTypes from 'prop-types';
+
 export default function Service({serv}) {
 
     console.log(serv);
@@ -18,4 +20,8 @@ export default function Service({serv}) {
             </div>
         </article>
     );
+}
+
+Service.propTypes = {
+    serv: PropTypes.any,
 }

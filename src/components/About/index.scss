@@ -9,7 +9,7 @@
     gap: 60px;
     padding: 60px 20px;
     p {
-        width: var(--site-max-width);
+        max-width: var(--site-max-width);
         line-height: 2em;
         text-align: center;
     }

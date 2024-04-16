@@ -1,0 +1,30 @@
+.job {
+    box-sizing: border-box;
+    width: 48%;
+    @media only screen and (max-width : 768px) {
+        width: 80%;
+    }
+    @media only screen and (max-width : 480px) {
+        width: 100%;
+    }
+    text-align: center;
+    padding: 20px;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    h3 {
+        margin-top: 10px;
+    }
+    img {
+        width: 100%;
+    }
+    a::after {
+        content: " \2192"
+    }
+}

@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 
 export default function Service({serv}) {
 
-    console.log(serv);
     return (
         <article className="service">
             <i className={serv.fa+" icon"}></i>

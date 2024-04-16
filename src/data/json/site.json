@@ -8,15 +8,15 @@
             },
             {
                 "text": "Services",
-                "link": "/services"
+                "link": "#services"
             },
             {
                 "text": "Portfolio",
-                "link": "/portfolio"
+                "link": "#portfolio"
             },
             {
                 "text": "Contact",
-                "link": "/contact"
+                "link": "#contact"
             }
         ]
     },

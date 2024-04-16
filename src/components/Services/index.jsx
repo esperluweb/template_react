@@ -7,7 +7,7 @@ import Service from "../Service";
 export default function Services() {
 
     return (
-        <section className="services">
+        <section id="services" className="services">
             <h2>Mes services</h2>
             <p>{site.about.text}</p>
             <div className="myservices contain">

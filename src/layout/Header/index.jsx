@@ -22,7 +22,7 @@ export default function Header() {
         {
           site.general.menu.map(
             (m, i) => 
-            <li onClick={handleCloseMenu} key={i}><Link to={m.link}>{m.text}</Link></li>
+            <li onClick={handleCloseMenu} key={i}><Link reloadDocument to={m.link}>{m.text}</Link></li>
           )
         }
       </ul>

@@ -40,7 +40,23 @@
                 ]
             },
             {
-                "fa": "fa-solid fa-code",
+                "fa": "fa-solid fa-house",
+                "name": "Code 2",
+                "desc": "Lorem ipsum dolor sit amet",
+                "tools": [
+                    "Tool D", "Tool E", "Tool F"
+                ]
+            },
+            {
+                "fa": "fa-solid fa-check",
+                "name": "Code 2",
+                "desc": "Lorem ipsum dolor sit amet",
+                "tools": [
+                    "Tool D", "Tool E", "Tool F"
+                ]
+            },
+            {
+                "fa": "fa-solid fa-arrow-right",
                 "name": "Code 2",
                 "desc": "Lorem ipsum dolor sit amet",
                 "tools": [

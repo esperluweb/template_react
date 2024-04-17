@@ -1,6 +1,6 @@
 {
     "general": {
-        "logo": "https://esperluweb.com/wp-content/uploads/2023/01/logo-long-site.png",
+        "logo": "/logo simple.png",
         "menu": [
             {
                 "text": "Accueil",
@@ -21,46 +21,38 @@
         ]
     },
     "hero": {
-        "title": "Hello world !",
-        "text": "This is some text",
-        "image": "https://esperluweb.com/wp-content/uploads/2023/02/GBoisseau-05-Web.jpg"
+        "title": "Bienvenue sur Simple !",
+        "subtitle": "Agence web pour toutes vos envies.",
+        "image": "/hero.svg"
     },
     "about" : {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "text": "Découvrez Simple, votre partenaire digital pour des solutions web épurées. Nous croyons en la puissance de la simplicité pour offrir une expérience utilisateur exceptionnelle. Que ce soit pour un site vitrine, une boutique en ligne ou une application mobile, notre équipe talentueuse crée des solutions sur mesure qui dépassent les attentes. Nous travaillons en étroite collaboration avec nos clients pour concrétiser leurs visions. Choisissez la simplicité avec Simple et laissez-nous vous aider à atteindre vos objectifs digitaux."
     },
     "services": {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "text": "Simple offre des solutions web épurées : sites vitrines, boutiques en ligne, applications mobiles. Nous concrétisons vos visions digitales avec simplicité. Choisissez Simple pour des résultats remarquables.",
         "all": [
             {
-                "fa": "fa-solid fa-code",
-                "name": "Code",
-                "desc": "Lorem ipsum dolor sit amet",
+                "fa": "fa-solid fa-display",
+                "name": "Site vitrine",
+                "desc": "Soyez présent sur Internet avec un site présentant votre activité !",
                 "tools": [
-                    "Tool A", "Tool B", "Tool C"
+                    "WordPress", "React"
                 ]
             },
             {
-                "fa": "fa-solid fa-house",
-                "name": "Code 2",
-                "desc": "Lorem ipsum dolor sit amet",
+                "fa": "fa-solid fa-cart-shopping",
+                "name": "Boutique en ligne",
+                "desc": "Vous avez une activité de vente ? Proposez la vente en ligne !",
                 "tools": [
-                    "Tool D", "Tool E", "Tool F"
+                    "WooCommerce", "Shopify", "PayPal"
                 ]
             },
             {
-                "fa": "fa-solid fa-check",
-                "name": "Code 2",
-                "desc": "Lorem ipsum dolor sit amet",
+                "fa": "fa-solid fa-mobile-screen-button",
+                "name": "Applications mobiles",
+                "desc": "Votre site ne suffit plus ? Tentez l'expérience de l'application mobile !",
                 "tools": [
-                    "Tool D", "Tool E", "Tool F"
-                ]
-            },
-            {
-                "fa": "fa-solid fa-arrow-right",
-                "name": "Code 2",
-                "desc": "Lorem ipsum dolor sit amet",
-                "tools": [
-                    "Tool D", "Tool E", "Tool F"
+                    "React Native"
                 ]
             }
         ]
@@ -69,34 +61,22 @@
         "text": "Lorem ipsum dolor sit amet.",
         "all": [
             {
-                "name": "Mon projet de fou",
+                "name": "Lodging",
                 "category": "Site web",
-                "img": "https://esperluweb.com/wp-content/uploads/2023/03/Screenshot-2023-03-27-at-18-19-39-Accueil-T10-Coworking-innovant-et-communaute-inspirante-Auxerre.png",
-                "url": "https://esperluweb.com"
+                "img": "https://webae.esperluweb.com/wp-content/uploads/2024/03/Screenshot-2024-03-23-at-11-04-07-Lodging-Un-template-pour-un-restaurant.png",
+                "url": "https://demo.esperluweb.com/lodging/"
             },
             {
-                "name": "Mon projet de fou",
+                "name": "Light",
                 "category": "Site web",
-                "img": "https://esperluweb.com/wp-content/uploads/2023/03/Screenshot-2023-03-27-at-18-19-39-Accueil-T10-Coworking-innovant-et-communaute-inspirante-Auxerre.png",
-                "url": "https://esperluweb.com"
+                "img": "https://webae.esperluweb.com/wp-content/uploads/2023/12/Screenshot-2023-12-21-at-09-58-41-Light-Un-template-leger-mais-efficace.png",
+                "url": "https://demo.esperluweb.com/light/"
             },
             {
-                "name": "Mon projet de fou",
+                "name": "Gastronomic",
                 "category": "Site web",
-                "img": "https://esperluweb.com/wp-content/uploads/2023/03/Screenshot-2023-03-27-at-18-19-39-Accueil-T10-Coworking-innovant-et-communaute-inspirante-Auxerre.png",
-                "url": "https://esperluweb.com"
-            },
-            {
-                "name": "Mon projet de fou",
-                "category": "Site web",
-                "img": "https://esperluweb.com/wp-content/uploads/2023/03/Screenshot-2023-03-27-at-18-19-39-Accueil-T10-Coworking-innovant-et-communaute-inspirante-Auxerre.png",
-                "url": "https://esperluweb.com"
-            },
-            {
-                "name": "Mon projet de fou",
-                "category": "Site web",
-                "img": "https://esperluweb.com/wp-content/uploads/2023/03/Screenshot-2023-03-27-at-18-19-39-Accueil-T10-Coworking-innovant-et-communaute-inspirante-Auxerre.png",
-                "url": "https://esperluweb.com"
+                "img": "https://webae.esperluweb.com/wp-content/uploads/2023/12/Screenshot-2023-12-15-at-18-27-36-EsperluLite2-Un-site-utilisant-WordPress.png",
+                "url": "https://demo.esperluweb.com/gastronomic/"
             }
         ]
     },
@@ -104,11 +84,13 @@
         "service_id": "service_mpc237l",
         "template_id": "template_5qhto82",
         "public_key": "kCq8x6aRD2soaTYm0",
-        "text": "Lorem ipsum dolor sit amet."
+        "text": "N'hésitez pas à nous contacter via ce formulaire, nous vous recontacterons dans les plus brefs délais !"
     },
     "social": {
-        "facebook": "https://google.fr",
-        "instagram": "https://google.fr",
-        "linkedin": "https://google.fr"
+        "facebook": "https://facebook.com/esperluweb",
+        "instagram": "https://instagram.com/esperluweb",
+        "linkedin": "https://www.linkedin.com/company/esperluweb",
+        "twitter": "https://twitter.com/esperluweb",
+        "github": "https://github.com/esperluweb"
     }
 }

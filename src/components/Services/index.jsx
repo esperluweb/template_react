@@ -9,7 +9,7 @@ export default function Services() {
     return (
         <section id="services" className="services">
             <h2>Mes services</h2>
-            <p>{site.about.text}</p>
+            <p>{site.services.text}</p>
             <div className="myservices contain">
                 {
                     site.services.all.map((s,i) =>

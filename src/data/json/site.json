@@ -103,7 +103,8 @@
     "contact": {
         "service_id": "service_mpc237l",
         "template_id": "template_5qhto82",
-        "public_key": "kCq8x6aRD2soaTYm0"
+        "public_key": "kCq8x6aRD2soaTYm0",
+        "text": "Lorem ipsum dolor sit amet."
     },
     "social": {
         "facebook": "https://google.fr",

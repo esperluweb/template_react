@@ -31,17 +31,22 @@ export default function Contact() {
   };
 
     return (
-        <section id="contact">
-            <form ref={form} onSubmit={sendEmail}>
-                <input type="hidden" name="contact_number" value="697483" />
-                <label>Name</label>
-                <input type="text" name="user_name" />
-                <label>Email</label>
-                <input type="email" name="user_email" />
-                <label>Message</label>
-                <textarea name="message"></textarea>
-                <input type="submit" value="Send" />
-            </form>
+        <section id="contact" className='contact contain'>
+            <h2>Contact</h2>
+            <div className="twocol">
+              <div className="col">
+                <p>{site.contact.text}</p>
+              </div>
+              <div className="col">
+                <form ref={form} onSubmit={sendEmail}>
+                    <input type="hidden" name="contact_number" value="697483" />
+                    <input type="text" name="user_name" placeholder='Nom' />
+                    <input type="email" name="user_email" placeholder='Adresse e-mail' />
+                    <textarea name="message" placeholder='Message'></textarea>
+                    <input type="submit" value="Envoyer" />
+                </form>
+              </div>
+            </div>
         </section>
     );
   }

@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 
 import { routesArray } from "./data/routes/front";
-const router = createBrowserRouter(routesArray);
+const router = createBrowserRouter(routesArray, { basename: import.meta.env.BASE_URL });
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
